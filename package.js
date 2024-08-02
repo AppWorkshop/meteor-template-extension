@@ -1,7 +1,7 @@
 Package.describe({
   name: 'aldeed:template-extension',
   summary: 'Adds template features currently missing from the templating package',
-  version: '4.1.0',
+  version: '4.1.1',
   git: 'https://github.com/aldeed/meteor-template-extension.git'
 });
 
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'ecmascript',
     'templating',
-    'blaze',
+    'blaze@2.1.3 || 3.0.0',
     'tracker',
   ], 'client');
 

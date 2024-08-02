@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'aldeed:template-extension',
+  name: 'dm:template-extension',
   summary: 'Adds template features currently missing from the templating package',
   version: '4.1.1',
   git: 'https://github.com/aldeed/meteor-template-extension.git'
@@ -37,7 +37,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use([
-    'aldeed:template-extension',
+    'dm:template-extension',
     'jquery',
     'templating',
     'tinytest',

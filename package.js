@@ -1,12 +1,11 @@
 Package.describe({
   name: 'dm:template-extension',
   summary: 'Adds template features currently missing from the templating package',
-  version: '4.1.1',
+  version: '4.2.0',
   git: 'https://github.com/aldeed/meteor-template-extension.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.2');
 
   api.use([
     'ecmascript',
